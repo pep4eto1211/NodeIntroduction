@@ -1,0 +1,11 @@
+{
+  "name": "nodeintroduction",
+  "version": "1.0.0",
+  "description": "SAmple node.js service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Georgiev",
+  "license": "ISC"
+}
