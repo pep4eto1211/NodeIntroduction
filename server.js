@@ -65,6 +65,11 @@ app.post('/postrequesttest', function(request, response)
     response.end();
 });
 
+app.get('/nyan', function(request, response)
+{
+    response.end("CAT");
+});
+
 //Here we say to our service to start listening on port 8080.
 //The second argument is a callback function, to be called when the 
 //service starts listening
